@@ -27,6 +27,7 @@
                     //reverse user input and store it into reverseUserInput string variable
                     foreach (var item in userInput.Reverse())
                     {
+                        //concatenating all chars since Reverse seperate each char in a string and transforms them into CHAR[] arrays
                         reverseUserInput += item;
                     }
 
